@@ -1,0 +1,434 @@
+#navig{
+    position: sticky;
+    top: 0;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 750pt;
+    padding: 30px;
+    background-color: #F5E8B7;
+}
+#mainHeading{
+    margin-top: 10px;
+    font-size: 30pt;
+    font-family: 'Dancing Script', cursive;
+
+}
+#logo-text{
+    font-family: 'Dancing Script', cursive;
+}
+header{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #F5E8B7;
+   
+}
+#services-note{
+    margin-top: 70px;
+}
+.work{
+     margin: 100px;
+     text-align: center;
+}
+#subs{
+    font-size: 28pt;
+}
+#ultra-subs{
+    font-size: 22pt;
+    color: rgb(59, 57, 57);
+}
+.ourSpeciality{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+}
+.polar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ebebeb;
+}
+.polar > img{
+    height: 250px;
+    width: 250px;
+
+}
+.polar > img:hover{
+    opacity: 0.8;
+}
+.polar-body{
+
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    
+    color: rgb(59, 57, 57);
+}
+#service-desc{
+    font-size: 18pt;
+    text-align: center;
+    margin: 10px 200px 10px 200px;
+}
+.services{
+    display: flex; 
+
+}
+@media(max-width: 900px) {
+    .services{
+        display: flex;
+        flex-direction:column;
+    }
+    
+}
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+}
+.innerImg >img{
+    height: 300px;
+
+}
+.innerImg >img:hover{
+    opacity: 0.8;
+   
+
+
+}
+.card{
+
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
+}
+.card:hover{
+    box-shadow: 0 4px 10px 0 #F5E8B7 , 0 6px 30px 0 #FFCD4B;
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+
+    
+
+}
+.card-body>h3,p{
+    padding: 10px;
+}
+.moduleDiv{
+    margin: 200px;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+    
+
+}
+#mission-img{
+    margin-left: 50px;
+    height: 450px;
+    width: 90%;
+    border-radius: 60% 30% 20% 60%;
+}
+#story-img{
+    margin-right: 50px;
+    height: 450px;
+    width: 90%;
+    transform: scaleX(-1);
+    border-radius: 60% 30% 20% 60%;
+}
+#module{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+    font-size: 14pt;
+}
+
+.photo-card{
+    width: 400px;
+    height: 400px; 
+    text-align: center;
+}
+.agent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#me{
+    height: 300px;
+    width: auto;
+    border-radius: 50% ;
+}
+
+#me:hover{
+    box-shadow: 0 4px 10px 0 #F5E8B7 , 0 6px 30px 0 #FFCD4B;
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+
+footer{
+    background-color:#F5E8B7 ;
+    margin-top: 100px;
+    margin-bottom: 0%;
+    padding: 100px;
+}
+footer {
+    background: linear-gradient(217deg, #f5e8b7, #f2d17b, #e4e2dd);
+    background-size: 600% 600%;
+
+    animation: AnimationName 11s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+#signature{
+    text-align: center;
+    font-size: 20pt;
+}
+
+
+.popup{
+    background-color:#fff7d8 ;
+    width: 420px;
+    padding: 30px 40px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    display: none;
+    font-family: “Poppins”,sans-serif;
+    text-align: center;
+}
+
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    background: #FFCD4B;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+a{
+    color: black;
+   
+}
+a:hover{
+    color: #FFCD4B;
+}
+
+
+
+#agent{
+    width: 100%;
+    text-align: center;
+    background-color: #FFCD4B;
+    padding: 20px;
+
+}
+
+p{
+    font-size: 14pt;
+}
+
+
+.main-container{
+  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+#landing{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+   
+   
+    justify-content: center;
+    opacity: 0.85;   
+    height: 500px;
+    width: 400px;
+    background-color:#F5E8B7 ;
+    padding: 50px;
+    font-size: 28pt;
+    border-radius: 5%;
+    text-align: center;
+
+
+}
+
+.containerform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    text-align: center;
+    box-shadow: 1px 1px 10px 10px lightgray;
+    margin: 70px 270px;
+    height: 600px;
+    width: 1000px;
+    border-radius: 20px;
+   
+
+}
+#form{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+ 
+  
+}
+#form input{
+    width: 380px;
+    background-color: rgb(241, 241, 241);
+}
+
+#signuptext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5E8B7;
+    border-radius: 20px 0 0 20px;
+
+}
+#signintext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5E8B7;
+    border-radius: 0 20px 20px 0px;
+
+}
+
+
+
+#mybtn{
+    border-radius: 20px;
+
+}
+.row{
+    height: 600px;
+    
+}
+.dropdown-item{
+    font-size: 12pt;
+
+}
+#navig{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+
+
+}
+#mainHead{
+    font-weight: bold;
+
+}
+
+
+.fa {
+    color: rgb(79, 79, 79);
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+
+  }
+
+  
+.carousel-item{
+    margin-top: 50px;
+}
+
+.d-card{
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+
+}
+.i-card{
+    background-color:  rgb(255, 255, 255);
+    
+}
+.i-card>img{
+    width: 100%;
+}
+
+
+  
+
+  .centre{
+    text-align: center;
+  }
+  .bold{
+    font-weight: bold;
+    font-family: cursive;
+  }
+
+  .checkb{
+   text-align: center;
+   font-size: 12pt;
+   
+  }
+  #select{
+    width: 150px;
+    border-radius: 20px;
+    
+  }
+  .menu{
+    margin-left: 180px;
+    
+  }
+  .menu-head{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40pt;
+
+
+  }
+  .contact-card{
+    background-color: #f2d17b;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .contact-card:hover{
+   transform: scale(1.2);
+   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+   transition: all 0.5s ease-in-out;
+
+  }
+  .outer-card{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
